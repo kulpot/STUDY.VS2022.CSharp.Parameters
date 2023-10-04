@@ -8,12 +8,21 @@
 
 class MyClass
 {
-    static void AMethod()
+    static void AMethod(string myName, string yourName)
     {
-        Console.WriteLine("this is the first line in the method");
-        Console.WriteLine("this is the second line in the method");
-        Console.WriteLine("this is the third line in the method");
+        Console.WriteLine("Hello, " + yourName + ", my name is " + myName + ".");
     }
+
+
+
+
+
+    //static void AMethod()
+    //{
+    //    Console.WriteLine("this is the first line in the method");
+    //    Console.WriteLine("this is the second line in the method");
+    //    Console.WriteLine("this is the third line in the method");
+    //}
 
     static void Main()  // Main is important - all program starts in main
     {
