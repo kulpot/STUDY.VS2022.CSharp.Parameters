@@ -8,10 +8,12 @@
 
 class MyClass
 {
-    static void AMethod(string myName, string yourName)
+    static void SayHello(string myName, string yourName)    // parameters
     {
         Console.WriteLine("Hello, " + yourName + ", my name is " + myName + ".");
-    }
+    }   // OUTPUT: Hello, Eric, my name is Kulpot.
+        //         Hello, Bob, my name is Rebeccar.
+
 
 
 
@@ -26,11 +28,19 @@ class MyClass
 
     static void Main()  // Main is important - all program starts in main
     {
-        Console.WriteLine("Kulpot");
-        AMethod(); // calling a method
-        Console.WriteLine("Wahu");
-        AMethod();
-        Console.WriteLine("Coach");
+        SayHello("Kulpot", "Eric");
+        SayHello("Rebeccar", "Bob");
+
+
+
+
+
+
+        //Console.WriteLine("Kulpot");
+        //AMethod(); // calling a method
+        //Console.WriteLine("Wahu");
+        //AMethod();
+        //Console.WriteLine("Coach");
         /*-----OUTPUT-----
          * 
             Kulpot
